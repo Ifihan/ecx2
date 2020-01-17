@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/gallery.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <title>ECX Gallery</title>
+</head>
+<body>
+    <!-- Navigation area -->
+    <nav class="container2">
+        <div class="ecx-logo-container">
+            <img src="./images/ECX-Logo-01_no_background.png" alt="ECX Logo" class="ecx-logo">
+        </div>
+        <nav class="desktop-nav">
+            <ul class="nav-list1">
+            <li><a href="./index.html#hero">Home</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./index.html#wwd">What we do</a></li>
+            <li><a href="./index.html#gallery">Gallery</a></li>
+            <li><a href="./index.html#contact">Contact</a></li>
+            <li><a href="./index.html#teamHead">Team</a></li>
+            </ul>
+        </nav>
+
+        <div class="hidden-menu menu">
+            <span class="menu-span"></span>
+            <span class="menu-span2 span2"></span>
+            <span class="menu-span3 span3"></span>
+        </div>
+        <div class="nav">
+            <ul class="nav-list">
+            <a class="nav-link" href="./index.html#hero">
+                <li>Home</li>
+            </a>
+            <a class="nav-link" href="./index.html#about">
+                <li>About</li>
+            </a>
+            <a class="nav-link" href="./index.html#wwd">
+                <li>What we do</li>
+            </a>
+            <a class="nav-link" href="./index.html#gallery">
+                <li>Gallery</li>
+            </a>
+            <a class="nav-link" href="./index.html#contact">
+                <li>Contact</li>
+            </a>
+            <a class="nav-link last-list-child" href="./index.html#team">
+                <li>Team</li>
+            </a>
+            <i class="fa fa-instagram menu-icons" id="menu-icon" aria-hidden="true"></i>
+            <i class="fa fa-twitter menu-icons" id="menu-icon1" aria-hidden="true"></i>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="img-overlay">
+            <div class="main-overlay" onclick="closeOverlay()"></div>
+            <span class="close-btn" onclick="closeOverlay()">&#10006;</span>
+        </div>
+        
+        <section class="gallery">
+            <h2 id="gallery-text">Gallery</h2>
+            <hr>
+            <div class="pictures"></div>
+        </section>
+    </main>
+
+
+  <!-- FOOTER-->
+  <footer>
+    <div class="footer-images">
+      <a href="" class="footer-image-link"><img alt="facebook" src="./images/facebook.png"></a>
+      <a href="" class="footer-image-link"><img alt="linkedin" src="./images/linkedin.png"></a>
+      <a href="https://instagram.com/ecxunilag" target="_blank" class=" footer-image-link"><img alt="instagram"
+          src="./images/instagram.png" class="footer-image"></a>
+      <a href="https://twitter.com/ecxunilag" target="_blank" class="footer-image-link"><img alt="twitter"
+          src="./images/twitter.png" class="footer-image"></a>
+    </div>
+    <hr class="footer-underline">
+    <p>2019 ecx website</p>
+  </footer>
+    
+    
+    <script src="./js/gallery.js"></script>
+    <script src="./js/nav.js"></script>
+</body>
+</html>
