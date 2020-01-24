@@ -467,6 +467,7 @@ section#about {
 }
 
 /* What we do */
+
 .ecx-logo {
   width: 150px;
   position: absolute;
@@ -836,7 +837,7 @@ q {
 #request-email,
 #request-subject {
   padding: 1rem 1.5rem;
-  border-radius: 3px;
+  border-radius: 3px 3px;
   margin: 1rem 0.3rem 1rem 0.3rem;
   box-shadow: 0 3px 6px #c9c9c985;
   opacity: 100%;
@@ -850,7 +851,7 @@ q {
   width: 77%;
   height: 22vh;
   max-width: 580px;
-  border-radius: 10px;
+  border-radius: 0px 10px 0px 10px;
   resize: none;
   box-shadow: 0 3px 6px #c9c9c985;
   padding: 0.5rem;
@@ -866,7 +867,7 @@ q {
   margin: 0.7rem 0;
   padding: 0.5rem 3rem;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 0px 5px 0px 5px;
   color: #fff;
   background: #3cb1fd 0% 0% no-repeat padding-box;
   border: 0.5px solid white;
